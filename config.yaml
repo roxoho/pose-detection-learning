@@ -1,0 +1,15 @@
+#data
+
+path: D:\new_projects\pose_detection\data
+train: images\train
+val: images\val
+
+
+#keypoints
+kpt_shape: [39, 3]
+flip_idx: [0, 1, 2, 4, 3, 10, 11, 12, 13, 14, 5, 6, 7, 8, 9, 15, 16, 17, 18, 19, 20, 21, 22, 23, 27, 28, 29, 24, 25,
+           26, 33, 34, 35, 30, 31, 32, 36, 38, 37]
+
+# Classes
+names:
+  0: quadruped
